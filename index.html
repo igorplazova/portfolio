@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fantasticoder | Portfolio</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="slick-theme.css">
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <input type="checkbox" name="nav-check" id="nav-check" />
+        <section class="sec-about" id="sec-about">
+            <div class="content">
+                <h1>who am i?</h1>
+                <p>my name is igor plazova.</p>
+                <p>i’m a software developer passionate about solving people's web and mobile app problems.
+                </p>
+                <p>i like to learn new things, i’m comfortable with trying new tech and</p>
+                <p>hacking my own growth</p>
+                <p>i focus on creating clean code and unique design.</p>
+            </div>
+        </section>
+        <section class="sec-portfolio" id="sec-portfolio">
+            <div class="row" style="padding:100px">
+                <div class="col">
+
+                    <h2>
+                        English Vocab 2048
+                    </h2>
+                    <div class="slider app1">
+                        <div>
+                            <img src="./learnenglish/screenshot1.png" />
+                        </div>
+                        <div>
+                            <img src="./learnenglish/screenshot2.png" />
+                        </div>
+                        <div>
+                            <img src="./learnenglish/screenshot3.png" />
+                        </div>
+                        <div>
+                            <img src="./learnenglish/screenshot4.png" />
+                        </div>
+                        <div>
+                            <img src="./learnenglish/screenshot5.png" />
+                        </div>
+                        <div>
+                            <img src="./learnenglish/screenshot6.png" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+
+                    <h2>
+                        SYN 2048
+                    </h2>
+                    <div class="slider app2">
+                        <div>
+                            <img src="./syn/snap1.png" />
+                        </div>
+                        <div>
+                            <img src="./syn/snap2.png" />
+                        </div>
+                        <div>
+                            <img src="./syn/snap3.png" />
+                        </div>
+                        <div>
+                            <img src="./syn/snap4.png" />
+                        </div>
+                        <div>
+                            <img src="./syn/snap5.png" />
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <section class="sec-contact" id="sec-contact">
+            <ul class="soc-media">
+                <li><a href="https://reddit.com/u/fantasticoder" class="fa fa-reddit" target="_blank"></a></li>
+                <li><a href="mailto:fantasticoder@gmx.com" class="fa fa-envelope"></a></li>
+                <li><a href="https://github.com/igorplazova" class="fa fa-github"></a></li>
+
+            </ul>
+        </section>
+        <section class="sec-home" id="sec-home">
+            <div class="content">
+                <h1>hi and welcome on my portfolio.</h1>
+                <h2><a href="#sec-about">who</a> am i?</h2>
+                <h2><a href="#sec-portfolio">apps</a> i built?</h2>
+                <h2><a href="#sec-contact">where</a> to find me?</h2>
+            </div>
+        </section>
+        <nav role="navigation">
+            <label for="nav-check"></label>
+            <ul class="navigation">
+                <li><a href="#sec-home">home</a></li>
+                <li><a href="#sec-about">about</a></li>
+                <li><a href="#sec-portfolio">portfolio</a></li>
+                <li><a href="#sec-contact">contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $('.app1').slick();
+        $('.app2').slick();
+    </script>
+</body>
+
+</html>
